@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.GridContainer {
+  display: grid;
+  grid-areas: "g1 g1 g4" "g1 g1 g4" "g2 g2 g4" "g3 g3 g4";
+}
+
+.G1 {
+  display-area: "g1";
+}
+.G1Grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.G2 {
+  display-area: "g2";
+}
+.F2 {
+  display: flex;
+}
+
+.G3 {
+  display-area: "g3";
+}
+.G4 {
+  display-area: "g4";
+}
+.F2 {
+  display-area: flex;
+}
